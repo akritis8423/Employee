@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/introduction">
-          Welcome to Employee Management
+          Employee Management System
         </Link>
         <button
           className="navbar-toggler"
