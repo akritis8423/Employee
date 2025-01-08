@@ -79,9 +79,18 @@ const EmployeeForm = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-success">
-          {isEditing ? "Update" : "Create"}
-        </button>
+        <div className="d-flex justify-content-between">
+          <button type="submit" className="btn btn-success">
+            {isEditing ? "Update" : "Create"}
+          </button>
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => navigate("/employees")}
+          >
+            Back
+          </button>
+        </div>
       </form>
     </div>
   );
